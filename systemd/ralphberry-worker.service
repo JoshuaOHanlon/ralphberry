@@ -7,10 +7,10 @@ Requires=docker.service
 Type=simple
 User=pi
 Group=pi
-WorkingDirectory=/home/pi/ralphberry-platform
+WorkingDirectory=/home/pi/ralphberry
 Environment=NODE_ENV=production
-EnvironmentFile=/home/pi/ralphberry-platform/.env
-ExecStart=/usr/bin/node /home/pi/ralphberry-platform/apps/worker/dist/index.js
+EnvironmentFile=/home/pi/ralphberry/.env
+ExecStart=/usr/bin/node /home/pi/ralphberry/apps/worker/dist/index.js
 Restart=always
 RestartSec=10
 

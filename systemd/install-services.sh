@@ -27,7 +27,7 @@ update_service() {
   cp "$SCRIPT_DIR/$service" "$tmp_file"
 
   # Replace paths and user
-  sed -i "s|/home/pi/ralphberry-platform|$RALPH_DIR|g" "$tmp_file"
+  sed -i "s|/home/pi/ralphberry|$RALPH_DIR|g" "$tmp_file"
   sed -i "s|User=pi|User=$RALPH_USER|g" "$tmp_file"
   sed -i "s|Group=pi|Group=$RALPH_USER|g" "$tmp_file"
 

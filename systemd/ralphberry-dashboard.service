@@ -6,11 +6,11 @@ After=network.target
 Type=simple
 User=pi
 Group=pi
-WorkingDirectory=/home/pi/ralphberry-platform/apps/dashboard
+WorkingDirectory=/home/pi/ralphberry/apps/dashboard
 Environment=NODE_ENV=production
 Environment=PORT=3001
-EnvironmentFile=/home/pi/ralphberry-platform/.env
-ExecStart=/usr/bin/node /home/pi/ralphberry-platform/apps/dashboard/.next/standalone/apps/dashboard/server.js
+EnvironmentFile=/home/pi/ralphberry/.env
+ExecStart=/usr/bin/node /home/pi/ralphberry/apps/dashboard/.next/standalone/apps/dashboard/server.js
 Restart=always
 RestartSec=10
 

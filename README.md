@@ -25,8 +25,8 @@ Based on [Geoffrey Huntley's Ralph pattern](https://ghuntley.com/ralph/).
 ### Installation
 
 ```bash
-git clone https://github.com/you/ralphberry-platform
-cd ralphberry-platform
+git clone https://github.com/you/ralphberry
+cd ralphberry
 ./setup.sh
 ```
 
@@ -84,7 +84,7 @@ Open http://localhost:3001
 ## Project Structure
 
 ```
-ralphberry-platform/
+ralphberry/
 ├── apps/
 │   ├── slack-bot/      # Bolt.js Slack integration
 │   ├── dashboard/      # Next.js web UI

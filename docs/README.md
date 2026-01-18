@@ -14,8 +14,8 @@ Autonomous AI agent platform for software development. Ralphberry runs Claude Co
 ### One-Command Setup
 
 ```bash
-git clone https://github.com/you/ralphberry-platform
-cd ralphberry-platform
+git clone https://github.com/you/ralphberry
+cd ralphberry
 ./setup.sh
 ```
 
@@ -137,7 +137,7 @@ curl http://localhost:3001/api/jobs/{id}/logs
 ## Project Structure
 
 ```
-ralphberry-platform/
+ralphberry/
 ├── apps/
 │   ├── slack-bot/      # Bolt.js Slack integration
 │   ├── dashboard/      # Next.js web UI

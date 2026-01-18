@@ -1,11 +1,11 @@
 {
-  "name": "ralphberry-platform",
+  "name": "ralphberry",
   "version": "0.1.0",
   "private": true,
   "description": "Autonomous AI agent platform for Raspberry Pi 5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/you/ralphberry-platform"
+    "url": "https://github.com/you/ralphberry"
   },
   "license": "MIT",
   "scripts": {

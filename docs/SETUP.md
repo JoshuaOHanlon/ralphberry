@@ -52,8 +52,8 @@ brew install jq      # macOS
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/you/ralphberry-platform
-cd ralphberry-platform
+git clone https://github.com/you/ralphberry
+cd ralphberry
 ```
 
 ### 2. Configure Environment

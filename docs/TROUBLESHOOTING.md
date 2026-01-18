@@ -296,7 +296,7 @@ docker system prune -a
 
 ## Getting Help
 
-1. Check the [GitHub Issues](https://github.com/you/ralphberry-platform/issues)
+1. Check the [GitHub Issues](https://github.com/you/ralphberry/issues)
 2. Run diagnostics and include the output
 3. Include relevant logs
 4. Describe what you expected vs what happened
